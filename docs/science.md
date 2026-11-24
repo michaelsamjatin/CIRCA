@@ -6,11 +6,11 @@ Your body clock does not mainly read light through the cones you see colour with
 
 ## Why "warm" filters are not enough
 
-Night Shift and similar filters lower the blue channel but keep a lot of green. Melanopsin's sensitivity extends well into the green, so a warm-looking screen can still deliver a meaningful melanopic dose. Ember sets the green and blue output curves to zero, so the display only emits its red primary, which on typical LCD and OLED panels sits above about 600 nm, where melanopsin responds weakly.
+Night Shift and similar filters lower the blue channel but keep a lot of green. Melanopsin's sensitivity extends well into the green, so a warm-looking screen can still deliver a meaningful melanopic dose. Circa sets the green and blue output curves to zero, so the display only emits its red primary, which on typical LCD and OLED panels sits above about 600 nm, where melanopsin responds weakly.
 
 ## Brightness matters too
 
-Dose depends on intensity as well as spectrum. Ember's intensity slider scales the red channel, so you can dim the screen at the same time. Use the lowest level that is comfortable to read.
+Dose depends on intensity as well as spectrum. Circa's intensity slider scales the red channel, so you can dim the screen at the same time. Use the lowest level that is comfortable to read.
 
 ## Full effect without the eye strain
 
@@ -22,11 +22,11 @@ Pure red at full brightness is hard to work with: white pages glare, and dark gr
 
 ## The spectrum controls and the body-clock estimate
 
-A screen makes every colour from three primaries: blue (about 460 nm), green (about 530 nm) and red (about 620 nm). Ember sets each one separately. The Amber preset lets some green back in for a warmer, more natural look; every other preset keeps green and blue off because melanopsin responds strongly to both.
+A screen makes every colour from three primaries: blue (about 460 nm), green (about 530 nm) and red (about 620 nm). Circa sets each one separately. The Amber preset lets some green back in for a warmer, more natural look; every other preset keeps green and blue off because melanopsin responds strongly to both.
 
 The "Body-clock light" figure is a rough estimate of the melanopic light of a white screen in the current style, compared with a normal white screen. For a typical sRGB display, each primary's share of melanopic light is its share of luminance (red 21 %, green 72 %, blue 7 %) times its melanopic-to-photopic ratio under CIE S 026, treating the primaries as narrowband. That gives blue about 66 %, green about 33 % and red about 0.5 %. Each primary's output is then scaled by its level raised to the display gamma of 2.2. Real panels have broader primaries, so treat the figure as an order of magnitude, not a measurement. Dark Mode and dark content lower the real figure further.
 
-## What Ember does not do
+## What Circa does not do
 
 - It is not a medical device and makes no clinical claim.
 - It only changes your screen. Room lighting usually contributes far more evening light than a laptop does. Dim lamps and avoid bright overhead light too.
